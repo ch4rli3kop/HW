@@ -1,0 +1,529 @@
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 84
+     id        = 60275
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x3b4e
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58680
+        dport     = ssh
+        seq       = 712678229
+        ack       = 829897485
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 4106
+        chksum    = 0x5b4d
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = "\xc6\x990\xdf\xd3SU\x96\x8e<X\xd5\xeb~hQ\x83\xe6TP\x9d}E\xb6'\xa7\xffv\x83\xa2;5\xdf(PZGLQ\xdah\x05+o"
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 60276
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x3b79
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58680
+        dport     = ssh
+        seq       = 712678273
+        ack       = 829897545
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 4106
+        chksum    = 0xb3dd
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 84
+     id        = 60277
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x3b4c
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58680
+        dport     = ssh
+        seq       = 712678273
+        ack       = 829897545
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 4106
+        chksum    = 0x1fb4
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\xae\x05h\xfd\xb3\x98#\x137\x83i\xed)\xee\xfaH\xe20\xd4\xae\xc0\x1fH\x90\x1f\x9f\x98\xb4\x97\x93QP\xf3\x0c\xbe\xe7jNO\xfa\x0f\xae\x03\xec'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 60278
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x3b77
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58680
+        dport     = ssh
+        seq       = 712678317
+        ack       = 829897597
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 4105
+        chksum    = 0xb37e
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 84
+     id        = 60279
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x3b4a
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58680
+        dport     = ssh
+        seq       = 712678317
+        ack       = 829897597
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 4105
+        chksum    = 0xc97b
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\xefa\xa9$r\x9d\xde7jA\xed/<^\x03^\xa9(\x98fE\x8d\\8\x8dQ\x1a\x8a\x02\xb3r\xfe\xc5\xe2K*\x1d\x1a\x99\x04\xf1\x99\xaf\x9d'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 60280
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x3b75
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58680
+        dport     = ssh
+        seq       = 712678361
+        ack       = 829897657
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 4105
+        chksum    = 0xb316
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 84
+     id        = 60281
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x3b48
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58680
+        dport     = ssh
+        seq       = 712678361
+        ack       = 829897657
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 4105
+        chksum    = 0x9f89
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = 'O\xd7j\xb4>\xf6\x8fo\x8e\x8dY&\x9a\x19\xdeQ,@yE\xbbM\xf8\xea\xabN,\xd2\xdb\x12\xc3<q\xd7\xb1 \x91\xa4\x83\xb8R\n\xcf\xb9'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 60282
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x3b73
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58680
+        dport     = ssh
+        seq       = 712678405
+        ack       = 829897717
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 4105
+        chksum    = 0xb2ae
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 84
+     id        = 60283
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x3b46
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58680
+        dport     = ssh
+        seq       = 712678405
+        ack       = 829897717
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 4105
+        chksum    = 0x79ba
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = "C]'\x10\xde\xe0NQE\x99\xe6\n\xa1\x179tg\xbc\xce\x95\x0b\x14\xa3\xc3\x9d\xff\x18\x8cq\x0b\xd4\xc1Q\x13\x9dz\xf3m\xaa\t6\xf6\xf6q"
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 60284
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x3b71
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58680
+        dport     = ssh
+        seq       = 712678449
+        ack       = 829897769
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 4105
+        chksum    = 0xb24e
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 76
+     id        = 60285
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x3b4c
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58680
+        dport     = ssh
+        seq       = 712678449
+        ack       = 829897769
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 4105
+        chksum    = 0xae15
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '6c\xc0U\xa3\xea\x15\x83\xb4\xcchgo\x08\xa9\xff\xdd\x05\xa5dd=\xc8*\xae[\xe5\xbf\xb7\x8a\x14e\x0b\t\x03\xc3'
+
+###[ Ethernet ]### 
+  dst       = ff:ff:ff:ff:ff:ff
+  src       = 00:50:56:f3:b3:d7
+  type      = ARP
+###[ ARP ]### 
+     hwtype    = 0x1
+     ptype     = IPv4
+     hwlen     = 6
+     plen      = 4
+     op        = who-has
+     hwsrc     = 00:50:56:f3:b3:d7
+     psrc      = 192.168.41.2
+     hwdst     = 00:00:00:00:00:00
+     pdst      = 192.168.41.144
+###[ Padding ]### 
+        load      = '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:f3:b3:d7
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 145
+     id        = 610
+     flags     = 
+     frag      = 0
+     ttl       = 128
+     proto     = udp
+     chksum    = 0x6417
+     src       = 192.168.41.2
+     dst       = 192.168.41.144
+     \options   \
+###[ UDP ]### 
+        sport     = domain
+        dport     = 27473
+        len       = 125
+        chksum    = 0xd325
+###[ DNS ]### 
+           id        = 24526
+           qr        = 1
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 1
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 1
+           nscount   = 2
+           arcount   = 2
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'korea.ac.kr.'
+            |  qtype     = A
+            |  qclass    = IN
+           \an        \
+            |###[ DNS Resource Record ]### 
+            |  rrname    = 'korea.ac.kr.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 5
+            |  rdlen     = None
+            |  rdata     = 163.152.6.10
+           \ns        \
+            |###[ DNS Resource Record ]### 
+            |  rrname    = 'korea.ac.kr.'
+            |  type      = NS
+            |  rclass    = IN
+            |  ttl       = 5
+            |  rdlen     = None
+            |  rdata     = 'kucc.korea.ac.kr.'
+            |###[ DNS Resource Record ]### 
+            |  rrname    = 'korea.ac.kr.'
+            |  type      = NS
+            |  rclass    = IN
+            |  ttl       = 5
+            |  rdlen     = None
+            |  rdata     = 'kuccgx.korea.ac.kr.'
+           \ar        \
+            |###[ DNS Resource Record ]### 
+            |  rrname    = 'kucc.korea.ac.kr.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 5
+            |  rdlen     = None
+            |  rdata     = 163.152.11.6
+            |###[ DNS Resource Record ]### 
+            |  rrname    = 'kuccgx.korea.ac.kr.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 5
+            |  rdlen     = None
+            |  rdata     = 163.152.1.1
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 60286
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x3b6f
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58680
+        dport     = ssh
+        seq       = 712678485
+        ack       = 829898169
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 4103
+        chksum    = 0xb09c
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 60287
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x3b6e
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58680
+        dport     = ssh
+        seq       = 712678485
+        ack       = 829898661
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 4101
+        chksum    = 0xaeb2
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+

@@ -1,0 +1,67 @@
+#######  192.168.41.140  ######
+ch4rli3kop at ubuntu in ~
+$ ping naver.com
+PING naver.com (210.89.164.90) 56(84) bytes of data.
+64 bytes from 210.89.164.90 (210.89.164.90): icmp_seq=1 ttl=64 time=941 ms
+64 bytes from 210.89.164.90 (210.89.164.90): icmp_seq=2 ttl=64 time=966 ms
+64 bytes from 210.89.164.90 (210.89.164.90): icmp_seq=3 ttl=64 time=987 ms
+64 bytes from 210.89.164.90 (210.89.164.90): icmp_seq=4 ttl=64 time=1011 ms
+64 bytes from 210.89.164.90 (210.89.164.90): icmp_seq=5 ttl=64 time=1024 ms
+64 bytes from 210.89.164.90 (210.89.164.90): icmp_seq=6 ttl=64 time=1023 ms
+^C
+--- naver.com ping statistics ---
+7 packets transmitted, 6 received, 14% packet loss, time 6059ms
+rtt min/avg/max/mdev = 941.006/992.364/1024.004/30.861 ms, pipe 2
+
+
+
+
+######  192.168.41.144  ######
+[05/07/20]seed@VM:~/tmp$ sudo ./task2_3 
+
+### receive echo-request ###
+192.168.41.140  ->  210.89.164.90
+
+###  send echo-reply  ###
+
+### receive echo-request ###
+192.168.41.140  ->  210.89.164.90
+
+###  send echo-reply  ###
+
+### receive echo-request ###
+192.168.41.140  ->  210.89.164.90
+
+###  send echo-reply  ###
+
+### receive echo-request ###
+192.168.41.140  ->  210.89.164.90
+
+###  send echo-reply  ###
+
+### receive echo-request ###
+192.168.41.140  ->  210.89.164.90
+
+###  send echo-reply  ###
+
+### receive echo-request ###
+192.168.41.140  ->  210.89.164.90
+
+###  send echo-reply  ###
+
+### receive echo-request ###
+192.168.41.140  ->  210.89.164.90
+
+###  send echo-reply  ###
+
+### receive echo-request ###
+192.168.41.140  ->  210.89.164.90
+
+###  send echo-reply  ###
+
+### receive echo-request ###
+192.168.41.140  ->  210.89.164.90
+
+###  send echo-reply  ###
+
+

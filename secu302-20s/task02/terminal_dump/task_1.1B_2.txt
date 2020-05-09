@@ -1,0 +1,1836 @@
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 57650
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45af
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553770
+        ack       = 0
+        dataofs   = 8
+        reserved  = 0
+        flags     = S
+        window    = 64240
+        chksum    = 0x768f
+        urgptr    = 0
+        options   = [('MSS', 1460), ('NOP', None), ('WScale', 8), ('NOP', None), ('NOP', None), ('SAckOK', b'')]
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57651
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45ba
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553771
+        ack       = 1223696506
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 513
+        chksum    = 0x46d8
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 43
+     id        = 57652
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45b6
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553771
+        ack       = 1223696518
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 513
+        chksum    = 0x2ec5
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\xff\xfb\x18'
+###[ Padding ]### 
+              load      = '\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 43
+     id        = 57653
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45b5
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553774
+        ack       = 1223696518
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 513
+        chksum    = 0x26c1
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\xff\xfc '
+###[ Padding ]### 
+              load      = '\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 43
+     id        = 57654
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45b4
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553777
+        ack       = 1223696518
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 513
+        chksum    = 0x23bf
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\xff\xfb#'
+###[ Padding ]### 
+              load      = '\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 43
+     id        = 57655
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45b3
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553780
+        ack       = 1223696518
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 513
+        chksum    = 0x1fbb
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = "\xff\xfc'"
+###[ Padding ]### 
+              load      = '\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 62
+     id        = 57656
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x459f
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553783
+        ack       = 1223696530
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 513
+        chksum    = 0x8c1b
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\xff\xfa#\x00192.168.41.1:0.0\xff\xf0'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 51
+     id        = 57657
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45a9
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553805
+        ack       = 1223696530
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 513
+        chksum    = 0xf2a8
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\xff\xfa\x18\x00xterm\xff\xf0'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 43
+     id        = 57658
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45b0
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553816
+        ack       = 1223696545
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 513
+        chksum    = 0x437b
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\xff\xfd\x03'
+###[ Padding ]### 
+              load      = '\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 43
+     id        = 57659
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45af
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553819
+        ack       = 1223696545
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 513
+        chksum    = 0x4579
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\xff\xfc\x01'
+###[ Padding ]### 
+              load      = '\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 43
+     id        = 57660
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45ae
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553822
+        ack       = 1223696545
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 513
+        chksum    = 0x2777
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\xff\xfb\x1f'
+###[ Padding ]### 
+              load      = '\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 49
+     id        = 57661
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45a7
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553825
+        ack       = 1223696545
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 513
+        chksum    = 0x8e6e
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\xff\xfa\x1f\x00v\x002\xff\xf0'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 43
+     id        = 57662
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45ac
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553834
+        ack       = 1223696545
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 513
+        chksum    = 0x4168
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\xff\xfe\x05'
+###[ Padding ]### 
+              load      = '\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 43
+     id        = 57663
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45ab
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553837
+        ack       = 1223696545
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 513
+        chksum    = 0x2568
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\xff\xfb!'
+###[ Padding ]### 
+              load      = '\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 43
+     id        = 57664
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45aa
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553840
+        ack       = 1223696548
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 513
+        chksum    = 0x4560
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\xff\xfd\x01'
+###[ Padding ]### 
+              load      = '\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57665
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45ac
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553843
+        ack       = 1223696578
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 513
+        chksum    = 0x4648
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57666
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45aa
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553843
+        ack       = 1223696578
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 513
+        chksum    = 0xd33e
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = 's'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57667
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45aa
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553844
+        ack       = 1223696579
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 512
+        chksum    = 0x4647
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57668
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45a8
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553844
+        ack       = 1223696579
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 512
+        chksum    = 0xe13d
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = 'e'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57669
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45a8
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553845
+        ack       = 1223696580
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 512
+        chksum    = 0x4645
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57670
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45a6
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553845
+        ack       = 1223696580
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 512
+        chksum    = 0xe13b
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = 'e'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57671
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45a6
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553846
+        ack       = 1223696581
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 512
+        chksum    = 0x4643
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57672
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45a4
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553846
+        ack       = 1223696581
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 512
+        chksum    = 0xe239
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = 'd'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57673
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45a4
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553847
+        ack       = 1223696582
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 512
+        chksum    = 0x4641
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57674
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45a2
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553847
+        ack       = 1223696582
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 512
+        chksum    = 0x3938
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\r'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57675
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45a2
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553848
+        ack       = 1223696594
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 512
+        chksum    = 0x4634
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57676
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x45a0
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553848
+        ack       = 1223696594
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 512
+        chksum    = 0xe22a
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = 'd'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57677
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x459f
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553849
+        ack       = 1223696594
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 512
+        chksum    = 0xe129
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = 'e'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57678
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x459e
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553850
+        ack       = 1223696594
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 512
+        chksum    = 0xe128
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = 'e'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57679
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x459d
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553851
+        ack       = 1223696594
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 512
+        chksum    = 0xd327
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = 's'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57680
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x459c
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553852
+        ack       = 1223696594
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 512
+        chksum    = 0x3927
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\r'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57681
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x459c
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553853
+        ack       = 1223696596
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 512
+        chksum    = 0x462d
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57682
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x459b
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553853
+        ack       = 1223696666
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 512
+        chksum    = 0x45e7
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57683
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x459a
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553853
+        ack       = 1223696729
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 512
+        chksum    = 0x45a8
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57684
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4599
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553853
+        ack       = 1223696942
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 511
+        chksum    = 0x44d4
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57685
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4598
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553853
+        ack       = 1223696963
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 511
+        chksum    = 0x44bf
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57686
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4596
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553853
+        ack       = 1223696963
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 511
+        chksum    = 0xd8b5
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = 'l'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57687
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4596
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553854
+        ack       = 1223696964
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 511
+        chksum    = 0x44bd
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57688
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4594
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553854
+        ack       = 1223696964
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 511
+        chksum    = 0xd1b3
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = 's'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57689
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4594
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553855
+        ack       = 1223696965
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 511
+        chksum    = 0x44bb
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57690
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4592
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553855
+        ack       = 1223696965
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 511
+        chksum    = 0x37b2
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\r'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57691
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4592
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553856
+        ack       = 1223697314
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 510
+        chksum    = 0x435e
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57692
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4591
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553856
+        ack       = 1223697335
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 510
+        chksum    = 0x4349
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57693
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x458f
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553856
+        ack       = 1223697335
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 510
+        chksum    = 0xde3f
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = 'e'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57694
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x458f
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553857
+        ack       = 1223697336
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 510
+        chksum    = 0x4347
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57695
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x458d
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553857
+        ack       = 1223697336
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 510
+        chksum    = 0xcb3d
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = 'x'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57696
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x458d
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553858
+        ack       = 1223697337
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 510
+        chksum    = 0x4345
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57697
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x458b
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553858
+        ack       = 1223697337
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 510
+        chksum    = 0xda3b
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = 'i'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57698
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x458b
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553859
+        ack       = 1223697338
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 510
+        chksum    = 0x4343
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57699
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4589
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553859
+        ack       = 1223697338
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 510
+        chksum    = 0xcf39
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = 't'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57700
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4589
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553860
+        ack       = 1223697339
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 510
+        chksum    = 0x4341
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 57701
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4587
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553860
+        ack       = 1223697339
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 510
+        chksum    = 0x3638
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\r'
+###[ Padding ]### 
+              load      = '\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57702
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4587
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553861
+        ack       = 1223697350
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 509
+        chksum    = 0x4336
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 00:0c:29:62:4b:16
+  src       = 00:50:56:c0:00:08
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 57703
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4586
+     src       = 192.168.41.1
+     dst       = 192.168.41.144
+     \options   \
+###[ TCP ]### 
+        sport     = 58672
+        dport     = telnet
+        seq       = 146553861
+        ack       = 1223697350
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 509
+        chksum    = 0x4335
+        urgptr    = 0
+        options   = []
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00'
+

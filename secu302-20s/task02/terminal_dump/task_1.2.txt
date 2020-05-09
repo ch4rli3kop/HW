@@ -1,0 +1,62 @@
+######  192.168.41.144  ######
+[05/06/20]seed@VM:~/tmp$ sudo ./task1_2.py 
+###[ IP ]### 
+  version   = 4
+  ihl       = 5
+  tos       = 0x0
+  len       = 28
+  id        = 1
+  flags     = 
+  frag      = 0
+  ttl       = 64
+  proto     = icmp
+  chksum    = 0xa676
+  src       = 192.168.41.140
+  dst       = 192.168.41.141
+  \options   \
+###[ ICMP ]### 
+     type      = echo-request
+     code      = 0
+     chksum    = 0xf7ff
+     id        = 0x0
+     seq       = 0x0
+
+.
+Sent 1 packets.
+
+
+
+######  192.168.41.140  ######
+
+ch4rli3kop at ubuntu in ~
+$ sudo tcpdump icmp -XX
+[sudo] password for ch4rli3kop: 
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on ens33, link-type EN10MB (Ethernet), capture size 262144 bytes
+21:31:34.868367 IP ubuntu > 192.168.41.141: ICMP echo request, id 0, seq 1, length 8
+	0x0000:  000c 296d d216 000c 2962 4b16 0800 4500  ..)m....)bK...E.
+	0x0010:  001c 0001 0000 4001 a676 c0a8 298c c0a8  ......@..v..)...
+	0x0020:  298d 0800 f7fe 0000 0001 0000 0000 0000  )...............
+	0x0030:  0000 0000 0000 0000 0000 0000            ............
+21:31:34.871423 IP 192.168.41.141 > ubuntu: ICMP echo reply, id 0, seq 1, length 8
+	0x0000:  000c 29b7 3656 000c 296d d216 0800 4500  ..).6V..)m....E.
+	0x0010:  001c 137d 0000 4001 92fa c0a8 298d c0a8  ...}..@.....)...
+	0x0020:  298c 0000 fffe 0000 0001 0000 0000 0000  )...............
+	0x0030:  0000 0000 0000 0000 0000 0000            ............
+
+
+######  192.168.41.141  ######
+ch4rli3kop@ubuntu:~$ sudo tcpdump icmp -XX
+[sudo] password for ch4rli3kop: 
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on ens33, link-type EN10MB (Ethernet), capture size 262144 bytes
+21:31:34.870908 IP 192.168.41.140 > ubuntu: ICMP echo request, id 0, seq 1, length 8
+	0x0000:  000c 296d d216 000c 2962 4b16 0800 4500  ..)m....)bK...E.
+	0x0010:  001c 0001 0000 4001 a676 c0a8 298c c0a8  ......@..v..)...
+	0x0020:  298d 0800 f7fe 0000 0001 0000 0000 0000  )...............
+	0x0030:  0000 0000 0000 0000 0000 0000            ............
+21:31:34.873722 IP ubuntu > 192.168.41.140: ICMP echo reply, id 0, seq 1, length 8
+	0x0000:  000c 29b7 3656 000c 296d d216 0800 4500  ..).6V..)m....E.
+	0x0010:  001c 137d 0000 4001 92fa c0a8 298d c0a8  ...}..@.....)...
+	0x0020:  298c 0000 fffe 0000 0001                 ).........
+

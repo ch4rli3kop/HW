@@ -1,0 +1,69 @@
+[05/05/20]seed@VM:~/tmp$ ./task1_1.py 
+Traceback (most recent call last):
+  File "./task1_1.py", line 8, in <module>
+    pkt = sniff(filter='icmp', prn=print_pkt)
+  File "/usr/local/lib/python3.5/dist-packages/scapy/sendrecv.py", line 972, in sniff
+    sniffer._run(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/scapy/sendrecv.py", line 842, in _run
+    *arg, **karg)] = iface
+  File "/usr/local/lib/python3.5/dist-packages/scapy/arch/linux.py", line 467, in __init__
+    self.ins = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.htons(type))  # noqa: E501
+  File "/usr/lib/python3.5/socket.py", line 134, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+[05/05/20]seed@VM:~/tmp$ sudo ./task1_1.py 
+###[ Ethernet ]### 
+  dst       = 00:50:56:f3:b3:d7
+  src       = 00:0c:29:62:4b:16
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 84
+     id        = 50493
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = icmp
+     chksum    = 0x2ed3
+     src       = 192.168.41.144
+     dst       = 125.209.222.142
+     \options   \
+###[ ICMP ]### 
+        type      = echo-request
+        code      = 0
+        chksum    = 0xa2fe
+        id        = 0x3058
+        seq       = 0x1
+###[ Raw ]### 
+           load      = 'Q\xea\xb1^.\\\x08\x00\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./01234567'
+
+###[ Ethernet ]### 
+  dst       = 00:50:56:f3:b3:d7
+  src       = 00:0c:29:62:4b:16
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 84
+     id        = 50672
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = icmp
+     chksum    = 0x2e20
+     src       = 192.168.41.144
+     dst       = 125.209.222.142
+     \options   \
+###[ ICMP ]### 
+        type      = echo-request
+        code      = 0
+        chksum    = 0xc48f
+        id        = 0x3058
+        seq       = 0x2
+###[ Raw ]### 
+           load      = 'R\xea\xb1^\x0b\xca\x08\x00\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./01234567'
+
+

@@ -1,0 +1,736 @@
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 12
+Data : 
+´
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 12
+Data : 
+´
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 12
+Data : 
+ÿýÿý ÿý#ÿý'
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 3
+Data : 
+ÿû
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 3
+Data : 
+ÿü 
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 3
+Data : 
+ÿû#
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 3
+Data : 
+ÿü'
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 12
+Data : 
+ÿú#ÿðÿúÿð
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 22
+Data : 
+ÿú#
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 11
+Data : 
+ÿú
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 15
+Data : 
+ÿûÿýÿýÿûÿý!
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 3
+Data : 
+ÿý
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 3
+Data : 
+ÿü
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 3
+Data : 
+ÿû
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 9
+Data : 
+ÿú
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 3
+Data : 
+ÿþ
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 3
+Data : 
+ÿû!
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 3
+Data : 
+ÿû
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 3
+Data : 
+ÿý
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 20
+Data : 
+Ubuntu 16.04.2 LTS
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 10
+Data : 
+VM login: 
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+s
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 1
+Data : 
+s
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+e
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 1
+Data : 
+e
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+e
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 1
+Data : 
+e
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+d
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 1
+Data : 
+d
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 12
+Data : 
+
+Password: 
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+d
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+e
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+e
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+s
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 2
+Data : 
+
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 70
+Data : 
+Last login: Thu May  7 05:57:28 EDT 2020 from 192.168.41.1 on pts/18
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 63
+Data : 
+Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.8.0-36-generic i686)
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 213
+Data : 
+
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+1 package can be updated.
+0 updates are security updates.
+
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 21
+Data : 
+[05/07/20]seed@VM:~$ 
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+l
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 1
+Data : 
+l
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+s
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 1
+Data : 
+s
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 349
+Data : 
+
+[0m[01;34mandroid[0m  [01;34mCustomization[0m  [01;34mDocuments[0m  examples.desktop  [01;34mlib[0m    [01;34mPictures[0m  [01;34msource[0m     [01;34mtmp[0m
+[01;34mbin[0m      [01;34mDesktop[0m        [01;34mDownloads[0m  get-pip.py        [01;34mMusic[0m  [01;34mPublic[0m    [01;34mTemplates[0m  [01;34mVideos[0m
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 21
+Data : 
+[05/07/20]seed@VM:~$ 
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+i
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 1
+Data : 
+i
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+d
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 1
+Data : 
+d
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 2
+Data : 
+
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 145
+Data : 
+uid=1000(seed) gid=1000(seed) groups=1000(seed),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+[05/07/20]seed@VM:~$ 
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+p
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 1
+Data : 
+p
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+w
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 1
+Data : 
+w
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+d
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 1
+Data : 
+d
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 2
+Data : 
+
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 33
+Data : 
+/home/seed
+[05/07/20]seed@VM:~$ 
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+e
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 1
+Data : 
+e
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+x
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 1
+Data : 
+x
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+i
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 1
+Data : 
+i
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+t
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 1
+Data : 
+t
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 1
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 2
+Data : 
+
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 8
+Data : 
+logout
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.1  ->  192.168.41.144
+Data len : 0
+Data : 
+
+
+### Telnet ###
+192.168.41.144  ->  192.168.41.1
+Data len : 0
+Data : 
+
